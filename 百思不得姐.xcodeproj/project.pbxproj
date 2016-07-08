@@ -17,6 +17,10 @@
 		060B1CD51D27449C00C8D8B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 060B1CC91D27449C00C8D8B7 /* main.m */; };
 		060B1CD61D27449C00C8D8B7 /* YHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 060B1CCD1D27449C00C8D8B7 /* YHTabBar.m */; };
 		060B1CDA1D2752CC00C8D8B7 /* UIBarButtonItem+YHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 060B1CD91D2752CC00C8D8B7 /* UIBarButtonItem+YHExtension.m */; };
+		064768121D2BAE2F00A22415 /* YHLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 064768101D2BAE2F00A22415 /* YHLoginRegisterViewController.m */; };
+		064768131D2BAE2F00A22415 /* YHLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 064768111D2BAE2F00A22415 /* YHLoginRegisterViewController.xib */; };
+		064768161D2BB05C00A22415 /* YHUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 064768151D2BB05C00A22415 /* YHUIButton.m */; };
+		068461151D2E99D3007C7644 /* YHFollowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068461141D2E99D3007C7644 /* YHFollowViewController.xib */; };
 		06F431DC1D1C25D2003D41E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F431DB1D1C25D2003D41E1 /* Assets.xcassets */; };
 		06F431EA1D1C25D2003D41E1 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F431E91D1C25D2003D41E1 /* _____Tests.m */; };
 		06F431F51D1C25D2003D41E1 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F431F41D1C25D2003D41E1 /* _____UITests.m */; };
@@ -58,10 +62,16 @@
 		060B1CC81D27449C00C8D8B7 /* YHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTabBarController.m; sourceTree = "<group>"; };
 		060B1CC91D27449C00C8D8B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		060B1CCA1D27449C00C8D8B7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		060B1CCC1D27449C00C8D8B7 /* YHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHTabBar.h; path = ../View/YHTabBar.h; sourceTree = "<group>"; };
-		060B1CCD1D27449C00C8D8B7 /* YHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YHTabBar.m; path = ../View/YHTabBar.m; sourceTree = "<group>"; };
+		060B1CCC1D27449C00C8D8B7 /* YHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTabBar.h; sourceTree = "<group>"; };
+		060B1CCD1D27449C00C8D8B7 /* YHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTabBar.m; sourceTree = "<group>"; };
 		060B1CD81D2752CC00C8D8B7 /* UIBarButtonItem+YHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+YHExtension.h"; sourceTree = "<group>"; };
 		060B1CD91D2752CC00C8D8B7 /* UIBarButtonItem+YHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YHExtension.m"; sourceTree = "<group>"; };
+		0647680F1D2BAE2F00A22415 /* YHLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHLoginRegisterViewController.h; sourceTree = "<group>"; };
+		064768101D2BAE2F00A22415 /* YHLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHLoginRegisterViewController.m; sourceTree = "<group>"; };
+		064768111D2BAE2F00A22415 /* YHLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		064768141D2BB05C00A22415 /* YHUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUIButton.h; sourceTree = "<group>"; };
+		064768151D2BB05C00A22415 /* YHUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHUIButton.m; sourceTree = "<group>"; };
+		068461141D2E99D3007C7644 /* YHFollowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHFollowViewController.xib; sourceTree = "<group>"; };
 		06F431CC1D1C25D2003D41E1 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F431DB1D1C25D2003D41E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06F431E01D1C25D2003D41E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -162,6 +172,7 @@
 			children = (
 				060B1CB01D27449C00C8D8B7 /* YHFollowViewController.h */,
 				060B1CB11D27449C00C8D8B7 /* YHFollowViewController.m */,
+				068461141D2E99D3007C7644 /* YHFollowViewController.xib */,
 				06F8E1BE1D28A91F002BF218 /* YHRecommentFollowViewController.h */,
 				06F8E1BF1D28A91F002BF218 /* YHRecommentFollowViewController.m */,
 			);
@@ -280,8 +291,9 @@
 				06F8E1C21D28B6F4002BF218 /* YHNavigationController.m */,
 				060B1CC71D27449C00C8D8B7 /* YHTabBarController.h */,
 				060B1CC81D27449C00C8D8B7 /* YHTabBarController.m */,
-				060B1CCC1D27449C00C8D8B7 /* YHTabBar.h */,
-				060B1CCD1D27449C00C8D8B7 /* YHTabBar.m */,
+				0647680F1D2BAE2F00A22415 /* YHLoginRegisterViewController.h */,
+				064768101D2BAE2F00A22415 /* YHLoginRegisterViewController.m */,
+				064768111D2BAE2F00A22415 /* YHLoginRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -289,6 +301,10 @@
 		060B1CCB1D27449C00C8D8B7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				060B1CCC1D27449C00C8D8B7 /* YHTabBar.h */,
+				060B1CCD1D27449C00C8D8B7 /* YHTabBar.m */,
+				064768141D2BB05C00A22415 /* YHUIButton.h */,
+				064768151D2BB05C00A22415 /* YHUIButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -453,6 +469,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064768131D2BAE2F00A22415 /* YHLoginRegisterViewController.xib in Resources */,
+				068461151D2E99D3007C7644 /* YHFollowViewController.xib in Resources */,
 				06F431DC1D1C25D2003D41E1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +501,8 @@
 				060B1CCF1D27449C00C8D8B7 /* YHFollowViewController.m in Sources */,
 				060B1CD01D27449C00C8D8B7 /* YHMeViewController.m in Sources */,
 				060B1CD11D27449C00C8D8B7 /* YHNewViewController.m in Sources */,
+				064768121D2BAE2F00A22415 /* YHLoginRegisterViewController.m in Sources */,
+				064768161D2BB05C00A22415 /* YHUIButton.m in Sources */,
 				060B1CD41D27449C00C8D8B7 /* YHTabBarController.m in Sources */,
 				06F8E1C01D28A91F002BF218 /* YHRecommentFollowViewController.m in Sources */,
 				060B1CDA1D2752CC00C8D8B7 /* UIBarButtonItem+YHExtension.m in Sources */,
